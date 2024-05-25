@@ -96,30 +96,30 @@ const Header = () => {
           <BsChevronDown className="text-white h-4 w-4" />
         </div>
         {isDropdownOpen && (
-          <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+          <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-navy-500 ring-1 ring-black ring-opacity-5">
             <div
-              className="py-1"
+              className="py-1 divide-y divide-gray-200"
               role="menu"
               aria-orientation="vertical"
               aria-labelledby="options-menu"
             >
               <a
                 href="/category1"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                className="block px-4 py-2 text-sm text-white hover:bg-orange-100 hover:text-orange-900"
                 role="menuitem"
               >
                 Category 1
               </a>
               <a
                 href="/category2"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                className="block px-4 py-2 text-sm text-white hover:bg-orange-100 hover:text-orange-900"
                 role="menuitem"
               >
                 Category 2
               </a>
               <a
                 href="/category3"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                className="block px-4 py-2 text-sm text-white hover:bg-orange-100 hover:text-orange-900"
                 role="menuitem"
               >
                 Category 3

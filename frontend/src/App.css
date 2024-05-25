@@ -11,10 +11,10 @@
   --navy-500: #000080;
   --navy-200: #6c63ff;
   --yellow-500 :#fedb69;
-  --AmazonDarkGray: #333333
+  --amazongray-100: #333333;
   
 }
-
+ 
 * {
   margin: 0;
   padding: 0;
